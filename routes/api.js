@@ -6,7 +6,6 @@ const todoController = require('../controllers/todo')
 
 const router = express.Router();
 
-// GET /feed/posts 
 router.get('/todo', todoController.getTodos);
 
 router.post('/todo', [
