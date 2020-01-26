@@ -5,24 +5,24 @@ This project uses the following technologies:
 - [MongoDB](https://www.mongodb.com/) for the database
 
 ## Quick Start
-// Install dependencies
+Install dependencies
 npm install
 
-// Run backend
+Run backend
 npm start
 
-// Server runs on https://btpntest.herokuapp.com and on local  http://localhost:3000
+Server runs on https://btpntest.herokuapp.com and on local  http://localhost:3000
 
-// Get List all Todo
+Get List all Todo 
 [GET] https://btpntest.herokuapp.com/api/todo 
 
-// Get Spesifict todo 
-[GET] https://btpntest.herokuapp.com/api/todo/id 
+Get Spesifict todo 
+[GET] https://btpntest.herokuapp.com/api/todo/id
 ex : https://btpntest.herokuapp.com/api/todo/5e2d079429de4146043c6183
 
-// Create todo
+Create todo
 [POST] https://btpntest.herokuapp.com/api/todo
-ex : body JSON = {"content":"Saya buat content pertama","isfavorite":"true","creator":"Fahmi"} 
+ex : body JSON = {"content":"Saya buat content pertama","isfavorite":"true","creator":"Fahmi"} ]
 
 [DELETE] https://btpntest.herokuapp.com/api/todo/id 
 ex : https://btpntest.herokuapp.com/api/todo/5e2d0ec246983200245b2cd1
