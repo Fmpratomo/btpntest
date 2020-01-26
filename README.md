@@ -11,6 +11,7 @@ Install dependencies
 Run backend
 - npm start
 
+## API Backend
 Server runs on https://btpntest.herokuapp.com and on local  http://localhost:3000
 
 Get List all Todo 
@@ -28,7 +29,6 @@ Create todo
 - https://btpntest.herokuapp.com/api/todo/5e2d0ec246983200245b2cd1
 
 [PUT] https://btpntest.herokuapp.com/api/todo/id 
-- https://btpntest.herokuapp.com/api/todo/5e2d0ec246983200245b2cd1
-Body JSON {"content":"Saya buat content Ketiga","isfavorite":"false"}
+- Body JSON {"content":"Saya buat content Ketiga","isfavorite":"false"}
 
 
