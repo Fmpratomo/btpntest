@@ -18,16 +18,17 @@ Get List all Todo
 
 Get Spesifict todo 
 [GET] https://btpntest.herokuapp.com/api/todo/id
-- ex : https://btpntest.herokuapp.com/api/todo/5e2d079429de4146043c6183
+- https://btpntest.herokuapp.com/api/todo/5e2d079429de4146043c6183
 
 Create todo
 [POST] https://btpntest.herokuapp.com/api/todo
-- ex : body JSON = {"content":"Saya buat content pertama","isfavorite":"true","creator":"Fahmi"} ]
+- body JSON = {"content":"Saya buat content pertama","isfavorite":"true","creator":"Fahmi"} ]
 
 [DELETE] https://btpntest.herokuapp.com/api/todo/id 
-- ex : https://btpntest.herokuapp.com/api/todo/5e2d0ec246983200245b2cd1
+- https://btpntest.herokuapp.com/api/todo/5e2d0ec246983200245b2cd1
 
 [PUT] https://btpntest.herokuapp.com/api/todo/id 
-ex : https://btpntest.herokuapp.com/api/todo/5e2d0ec246983200245b2cd1
+- https://btpntest.herokuapp.com/api/todo/5e2d0ec246983200245b2cd1
+Body JSON {"content":"Saya buat content Ketiga","isfavorite":"false"}
 
 
