@@ -13,6 +13,15 @@ router.post('/todo', [
     body('content').trim().isLength({ min: 5 })
 ], todoController.createTodo)
 
-// router.get('/post/:postId', feedController.getPost);
+router.get('/todo/:id', todoController.getTodo);
+
+router.delete('/todo/:id', todoController.deleteTodo);
+
+router.put('/todo/:id',
+    [
+        body('content')
+            .trim()
+            .isLength({ min: 5 })
+    ], todoController.updateTodo);
 
 module.exports = router;
